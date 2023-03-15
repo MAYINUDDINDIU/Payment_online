@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import banner from '../../assets/img/payment.jpg';
 
 const Banner = () => {
+
+    const test = '00006238';
     return (
    
 
@@ -36,6 +38,8 @@ const Banner = () => {
                                 <Link to='/payment_channel'>
                                     <Button variant="contained">LEARN MORE</Button>
                                 </Link>
+
+                            
                     </div>
                         </div>
                     </a>

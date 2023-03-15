@@ -10,6 +10,7 @@ import PolicyStatement from './Component/Statement/PolicyStatement';
 import Notfound from './Component/Notfound';
 import PaymentOverview from './Component/Statement/PaymentOverview';
 
+
 function App() {
   return (
     <div className='App'>
@@ -21,7 +22,9 @@ function App() {
               <Route path='/Payment-channel' element={<Payment_channel />}>Payment Channel</Route>
               <Route path='/Policy-information' element={<PolicyStatement />}>Payment Channel</Route>
               <Route path='/payment_overview=:id=:name=:amount' element={<PaymentOverview />}>Payment Overview</Route>
-              <Route path='*' element={<Notfound />}>signup</Route>
+        <Route path='*' element={<Notfound />}>signup</Route>
+        
+      
 
               
           </Routes>
